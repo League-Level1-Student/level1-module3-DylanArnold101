@@ -20,12 +20,15 @@ public class Backpack
 	public static void main(String[] args)
 	{
 		new Backpack().packAndCheck();
+		
 	}
 
 	public void putInBackpack(Pencil supply)
 	{
 		this.pencil = supply;
 		log(supply);
+		this.pencil = pencil;
+
 	}
 
 	public void putInBackpack(Ruler supply)

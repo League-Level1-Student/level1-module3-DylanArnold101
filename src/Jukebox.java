@@ -33,6 +33,8 @@ public class Jukebox implements Runnable {
         	    Song instance = new Song("Three Beat Slide - Journey (Official Music Video) (1).mp3") ; 
         	    Song fun = new Song("National Anthem of USSR.mp3");
         	    Song disco = new Song("Abba - Dancing Queen.mp3");
+        	    Song history =("Boney M.- Rasputin.mp3");
+        	 
 		// 5. Play the Song
         	    disco.play();
 		/*

@@ -33,9 +33,24 @@ public class Jukebox implements Runnable {
         	    Song instance = new Song("Three Beat Slide - Journey (Official Music Video) (1).mp3") ; 
         	    Song fun = new Song("National Anthem of USSR.mp3");
         	    Song disco = new Song("Abba - Dancing Queen.mp3");
-        	    Song history =("Boney M.- Rasputin.mp3");
-        	 
-		// 5. Play the Song
+        	    Song history = new Song("Boney M.- Rasputin.mp3");
+        	    Song napoleon = new Song("Abba - Waterloo.mp3");
+        	    Song classic = new Song("a-ha - Take On Me (Official Music Video) (1).mp3");
+        	    Song Missisipi = new Song("Culture Club - Karma Chameleon (Official Video).mp3");
+        	    Song Life = new Song("Dead Or Alive - You Spin Me Round (Like a Record) (Official Video).mp3");
+        	    Song elements = new Song("Earth, Wind & Fire - September (Official Music Video).mp3");
+        	    Song rabbit = new Song("Echo and the Bunnymen - The Killing Moon (Official Music Video) (1).mp3");
+        	    	Song newtown = new Song("Lipps Inc - Funky Town (1).mp3");
+        	    Song rap = new Song("MC Hammer - U Can't Touch This.mp3");
+        	    Song asia = new Song("Murray Head - One Night In Bangkok From CHESS 2.mp3");
+        	    Song eight = new Song("Rick Astley - Never Gonna Give You Up (Video).mp3");
+        	    Song russia = new Song("Dschinghis Khan - Moskau 1979.mp3");
+        	    Song black = new Song("ACDC - Back In Black (Official Music Video).mp3");
+        	    Song hell = new Song("ACDC - Highway to Hell (Official Video).mp3");
+        	    Song shook = new Song("ACDC - You Shook Me All Night Long (Official Video).mp3");
+        	   
+        	    // 5. Play the Song
+        	     
         	    disco.play();
 		/*
 		 * 6. Create a user interface for your Jukebox so that the user can to

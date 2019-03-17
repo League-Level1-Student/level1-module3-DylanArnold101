@@ -53,10 +53,12 @@ public class Jukebox implements Runnable {
 		Song shook = new Song("ACDC - You Shook Me All Night Long (Official Video).mp3");
 		Song wake = new Song("Wham! - Wake Me Up Before You Go-Go (Official Music Video).mp3");
 		Song Rave = new Song("Noisestorm - Crab Rave [Monstercat Release] (1).mp3");
-
+		Song under = new Song("Men At Work - Down Under (Video).mp3");
+		Song love = new Song("ABC - The Look Of Love.mp3");
+		Song pie = new Song("American Pie.mp3");       
 		// 5. Play the Song
 
-		shook.play();
+		
 
 		/*
 		 * 6. Create a user interface for your Jukebox so that the user can to choose
@@ -64,7 +66,7 @@ public class Jukebox implements Runnable {
 		 * a picture of the album cover. When the button or album cover is clicked, stop
 		 * the currently playing song, and play the one that was selected.
 		 */
-		JPanel button = new JPanel();
+		JPanel panel = new JPanel();
 		JFrame forbuttons = new JFrame();
 		JButton instanceB = new JButton("Three Beat Slide - Journey (Official Music Video) (1).mp3");
 		JButton funN = new JButton("National Anthem of USSR.mp3");
@@ -85,7 +87,34 @@ public class Jukebox implements Runnable {
 		JButton hellB = new JButton("ACDC - Highway to Hell (Official Video).mp3");
 		JButton shookB = new JButton("ACDC - You Shook Me All Night Long (Official Video).mp3");
 		JButton wakeB = new JButton("Wham! - Wake Me Up Before You Go-Go (Official Music Video).mp3");
-		
+		JButton underB = new JButton("Men At Work - Down Under (Video).mp3");
+		JButton loveB = new JButton("ABC - The Look Of Love.mp3");
+		JButton pieB = new JButton("American Pie.mp3");
+		forbuttons.add(panel);
+		panel.add(instanceB);
+		panel.add(funN);
+		panel.add(discoB);
+		panel.add(historyB);
+		panel.add(napoleonB);
+		panel.add(classicB);
+		panel.add(MissisipiB);
+		panel.add(LifeB);
+		panel.add(elementsB);
+		panel.add(rabbitB);
+		panel.add(newtownB);
+		panel.add(rapB);
+		panel.add(asiaB);
+		panel.add(eightB);
+		panel.add(russiaB);
+		panel.add(blackB);
+		panel.add(hellB);
+		panel.add(shookB);
+		panel.add(wakeB);
+		panel.add(underB);
+		panel.add(loveB);
+		panel.add(pieB);
+		forbuttons.setVisible(true);
+		forbuttons.pack(); 
 	}
 
 	private void Jlabel(String string) {

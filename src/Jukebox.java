@@ -4,6 +4,8 @@
  */
 
 import java.awt.Button;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -22,7 +24,7 @@ import javazoom.jl.player.advanced.AdvancedPlayer;
 /* 1. Download the JavaZoom jar from here: http://bit.ly/javazoom
  * 2. Right click your project and add it as an External JAR (Under Java Build Path > Libraries).*/
 
-public class Jukebox implements Runnable {
+public class Jukebox implements Runnable, ActionListener {
 
 	public static void main(String[] args) {
 		SwingUtilities.invokeLater(new Jukebox());
@@ -66,30 +68,75 @@ public class Jukebox implements Runnable {
 		 * a picture of the album cover. When the button or album cover is clicked, stop
 		 * the currently playing song, and play the one that was selected.
 		 */
+		
 		JPanel panel = new JPanel();
 		JFrame forbuttons = new JFrame();
 		JButton instanceB = new JButton("Three Beat Slide - Journey (Official Music Video) (1).mp3");
+		instanceB.addActionListener(this);
 		JButton funN = new JButton("National Anthem of USSR.mp3");
+		addActionListener(this);
+
 		JButton discoB = new JButton("Abba - Dancing Queen.mp3");
+		addActionListener(this);
+
 		JButton historyB = new JButton("Boney M. - Rasputin.mp3");
+		addActionListener(this);
+
 		JButton napoleonB = new JButton("Abba - Waterloo.mp3");
+		addActionListener(this);
+
 		JButton classicB = new JButton("a-ha - Take On Me (Official Music Video) (1).mp3");
+		addActionListener(this);
+
 		JButton MissisipiB = new JButton("Culture Club - Karma Chameleon (Official Video).mp3");
+		addActionListener(this);
+
 		JButton LifeB = new JButton("Dead Or Alive - You Spin Me Round (Like a Record) (Official Video).mp3");
+		addActionListener(this);
+
 		JButton elementsB = new JButton("Earth, Wind & Fire - September (Official Music Video).mp3");
+		addActionListener(this);
+
 		JButton rabbitB = new JButton("Echo and the Bunnymen - The Killing Moon (Official Music Video) (1).mp3");
+		addActionListener(this);
+
 		JButton newtownB = new JButton("Lipps Inc - Funky Town (1).mp3");
+		addActionListener(this);
+
 		JButton rapB = new JButton("MC Hammer - U Can't Touch This.mp3");
+		addActionListener(this);
+
 		JButton asiaB = new JButton("Murray Head - One Night In Bangkok From CHESS 2.mp3");
+		addActionListener(this);
+
 		JButton eightB = new JButton("Rick Astley - Never Gonna Give You Up (Video).mp3");
+		addActionListener(this);
+
 		JButton russiaB = new JButton("Dschinghis Khan - Moskau 1979.mp3");
+		addActionListener(this);
+
 		JButton blackB = new JButton("ACDC - Back In Black (Official Music Video).mp3");
+		addActionListener(this);
+
 		JButton hellB = new JButton("ACDC - Highway to Hell (Official Video).mp3");
+		addActionListener(this);
+
 		JButton shookB = new JButton("ACDC - You Shook Me All Night Long (Official Video).mp3");
+		addActionListener(this);
+
 		JButton wakeB = new JButton("Wham! - Wake Me Up Before You Go-Go (Official Music Video).mp3");
+		addActionListener(this);
+
 		JButton underB = new JButton("Men At Work - Down Under (Video).mp3");
+		addActionListener(this);
+
 		JButton loveB = new JButton("ABC - The Look Of Love.mp3");
+		addActionListener(this);
+
 		JButton pieB = new JButton("American Pie.mp3");
+		addActionListener(this);
+
+		
 		forbuttons.add(panel);
 		panel.add(instanceB);
 		panel.add(funN);
@@ -115,7 +162,10 @@ public class Jukebox implements Runnable {
 		panel.add(pieB);
 		forbuttons.setVisible(true);
 		forbuttons.pack(); 
+		
 	}
+	
+	
 
 	private void Jlabel(String string) {
 		// TODO Auto-generated method stub
@@ -127,6 +177,12 @@ public class Jukebox implements Runnable {
 		URL imageURL = getClass().getResource(fileName);
 		Icon icon = new ImageIcon(imageURL);
 		return new JLabel(icon);
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

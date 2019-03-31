@@ -74,67 +74,67 @@ public class Jukebox implements Runnable, ActionListener {
 		JButton instanceB = new JButton("Three Beat Slide - Journey (Official Music Video) (1).mp3");
 		instanceB.addActionListener(this);
 		JButton funN = new JButton("National Anthem of USSR.mp3");
-		addActionListener(this);
+		funN.addActionListener(this);
 
 		JButton discoB = new JButton("Abba - Dancing Queen.mp3");
-		addActionListener(this);
+		discoB.addActionListener(this);
 
 		JButton historyB = new JButton("Boney M. - Rasputin.mp3");
-		addActionListener(this);
+		historyB.addActionListener(this);
 
 		JButton napoleonB = new JButton("Abba - Waterloo.mp3");
-		addActionListener(this);
+		napoleonB.addActionListener(this);
 
 		JButton classicB = new JButton("a-ha - Take On Me (Official Music Video) (1).mp3");
-		addActionListener(this);
+		classicB.addActionListener(this);
 
 		JButton MissisipiB = new JButton("Culture Club - Karma Chameleon (Official Video).mp3");
-		addActionListener(this);
+		MissisipiB.addActionListener(this);
 
 		JButton LifeB = new JButton("Dead Or Alive - You Spin Me Round (Like a Record) (Official Video).mp3");
-		addActionListener(this);
+		LifeB.addActionListener(this);
 
 		JButton elementsB = new JButton("Earth, Wind & Fire - September (Official Music Video).mp3");
-		addActionListener(this);
+		elementsB.addActionListener(this);
 
 		JButton rabbitB = new JButton("Echo and the Bunnymen - The Killing Moon (Official Music Video) (1).mp3");
-		addActionListener(this);
+		rabbitB.addActionListener(this);
 
 		JButton newtownB = new JButton("Lipps Inc - Funky Town (1).mp3");
-		addActionListener(this);
+		newtownB.addActionListener(this);
 
 		JButton rapB = new JButton("MC Hammer - U Can't Touch This.mp3");
-		addActionListener(this);
+		rapB.addActionListener(this);
 
 		JButton asiaB = new JButton("Murray Head - One Night In Bangkok From CHESS 2.mp3");
-		addActionListener(this);
+		asiaB.addActionListener(this);
 
 		JButton eightB = new JButton("Rick Astley - Never Gonna Give You Up (Video).mp3");
-		addActionListener(this);
+		eightB.addActionListener(this);
 
 		JButton russiaB = new JButton("Dschinghis Khan - Moskau 1979.mp3");
-		addActionListener(this);
+		russiaB.addActionListener(this);
 
 		JButton blackB = new JButton("ACDC - Back In Black (Official Music Video).mp3");
-		addActionListener(this);
+		blackB.addActionListener(this);
 
 		JButton hellB = new JButton("ACDC - Highway to Hell (Official Video).mp3");
-		addActionListener(this);
+		hellB.addActionListener(this);
 
 		JButton shookB = new JButton("ACDC - You Shook Me All Night Long (Official Video).mp3");
-		addActionListener(this);
+		shookB.addActionListener(this);
 
 		JButton wakeB = new JButton("Wham! - Wake Me Up Before You Go-Go (Official Music Video).mp3");
-		addActionListener(this);
+		wakeB.addActionListener(this);
 
 		JButton underB = new JButton("Men At Work - Down Under (Video).mp3");
-		addActionListener(this);
+		wakeB.addActionListener(this);
 
 		JButton loveB = new JButton("ABC - The Look Of Love.mp3");
-		addActionListener(this);
+		loveB.addActionListener(this);
 
 		JButton pieB = new JButton("American Pie.mp3");
-		addActionListener(this);
+		pieB.addActionListener(this);
 
 		
 		forbuttons.add(panel);

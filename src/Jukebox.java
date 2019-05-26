@@ -171,7 +171,44 @@ instanceB.addActionListener(this);
 	JButton pressed = (JButton) e.getSource();
 	if(pressed == instanceB) { instance.play();}
 	if(pressed == funN) {fun.play();}
-	if(pressed == )
+	if(pressed == historyB) {history.play();
+	if(pressed == discoB) {disco.play();}
+	if(pressed == napoleonB) {napoleon.play();}
+	if(pressed == classicB)  {classic.play();}
+	if(pressed == MissisipiB) {Missisipi.play();
+	if(pressed == LifeB)  {Life.play();}
+	if(pressed == elementsB) {elements.play();}
+	if(pressed == rabbitB) {rabbit.play();}
+	if(pressed == newtownB) {newtown.play();
+	if(pressed == rapB) {rap.play();}
+	if(pressed == asiaB) {asia.play();}
+	if(pressed == eightB) {eight.play();}
+	if(pressed == russiaB) {russia.play();}
+	if(pressed ==   )
+	}
+	}
+	panel.add(discoB);
+	panel.add(historyB);
+	panel.add(napoleonB);
+	panel.add(classicB);
+	panel.add(MissisipiB);
+	panel.add(LifeB);
+	panel.add(elementsB);
+	panel.add(rabbitB);
+	panel.add(newtownB);
+	panel.add(rapB);
+	panel.add(asiaB);
+	panel.add(eightB);
+	panel.add(russiaB);
+	panel.add(blackB);
+	panel.add(hellB);
+	panel.add(shookB);
+	panel.add(wakeB);
+	panel.add(underB);
+	panel.add(loveB);
+	panel.add(pieB);
+	panel.add(casbahB);
+	panel.add(ruleB);
 	// TODO Auto-generated method stub
 
 	}

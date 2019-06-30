@@ -78,6 +78,7 @@ public class MagicBox extends JPanel implements Runnable, MouseListener {
 	@Override
 	public void mouseClicked(MouseEvent e) { 
 		System.out.println();
+		mediaPalace.playMusicOnComputer("Monty Python - Lumberjack Song.mp3");
 			
 		// TODO Auto-generated method stub
 		

@@ -40,6 +40,7 @@ public class MagicBox extends JPanel implements Runnable, MouseListener {
 		
 	}
 
+
 	@Override
 	public void run() {
 		try {
@@ -77,9 +78,10 @@ public class MagicBox extends JPanel implements Runnable, MouseListener {
 
 	@Override
 	public void mouseClicked(MouseEvent e) { 
+		
 		System.out.println();
-		mediaPalace.playMusicOnComputer("src/Monty Python-Lumberjack Song.mp3");
-			
+		mediaPalace.loadImageFromHardDrive("Dman.jpg");	
+		//mediaPalace.playMusicOnComputer("src/Monty Python-Lumberjack Song.mp3");
 		// TODO Auto-generated method stub
 		
 	}
